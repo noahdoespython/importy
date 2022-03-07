@@ -12,11 +12,11 @@ modules =  script.Parent.Parent.Packages
 function _G.Import(module:string)
 	if module:lower() == "tenverse" then
 		return require(modules.tenverse)
-	elseif module:lower() == "Roact" then
+	elseif module:lower() == "roact" then
 		return require(modules.Roact)
 	elseif module:lower() == "fetchu" then
 		return require(modules.fetchu)
-	elseif module:lower() == "Landonu" then
+	elseif module:lower() == "landonu" then
 		return require(modules.Landonu)
 	elseif module:lower() == "roact-rodux" then
 		return require(modules.RoactRodux)
@@ -27,19 +27,17 @@ end
 function Importy.Import(module:string)
 	if module:lower() == "tenverse" then
 		return require(modules.tenverse)
-	elseif module:lower() == "Roact" then
+	elseif module:lower() == "roact" then
 		return require(modules.Roact)
 	elseif module:lower() == "fetchu" then
 		return require(modules.fetchu)
-	elseif module:lower() == "Landonu" then
+	elseif module:lower() == "landonu" then
 		return require(modules.Landonu)
 	elseif module:lower() == "roact-rodux" then
 		return require(modules.RoactRodux)
 	end
 
 end
-
-
 
 return Importy
 
