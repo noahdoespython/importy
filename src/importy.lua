@@ -20,11 +20,13 @@ function _G.Import(module:string)
 		return require(modules.Landonu)
 	elseif module:lower() == "roact-rodux" then
 		return require(modules.RoactRodux)
+	else
+		require(module)
 	end
 
 end
 
-function Importy.Import(module:string)
+function Importy.Import(module)
 	if module:lower() == "tenverse" then
 		return require(modules.tenverse)
 	elseif module:lower() == "roact" then
@@ -35,6 +37,8 @@ function Importy.Import(module:string)
 		return require(modules.Landonu)
 	elseif module:lower() == "roact-rodux" then
 		return require(modules.RoactRodux)
+	else
+		require(module)
 	end
 
 end
