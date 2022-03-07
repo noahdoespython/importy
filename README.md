@@ -2,6 +2,8 @@
 
 Making lives easier instead of require().
 
+[Get Me here!](https://www.roblox.com/library/9039583551/Importy)
+
 ## Usage
 
 You can use the following options:
