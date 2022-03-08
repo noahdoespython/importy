@@ -29,3 +29,22 @@ local body = fetchu.get("http://api.open-notify.org/astros.json")
 
 print(body)
 ```
+## Available Modules
+
+There is around **7** modules available, these are:
+
+```lua
+--[[
+
+AVAILABLE MODULES:
+
+LandonU @ imacodr
+fetchu @ imacodr
+tenverse @ noahdoespython
+RoactRodux @ UpliftGames (Possible fork)
+Roact @ Roblox
+Rodux @ Roblox
+animation-loader @ Dreahzy
+
+--]]
+```
