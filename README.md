@@ -2,7 +2,7 @@
 
 Making lives easier instead of require().
 
-[Get Me here!](https://www.roblox.com/library/9039701462/Importy)
+[Get Me here!](https://www.roblox.com/library/9047539382/Importy)
 
 ## Usage
 
